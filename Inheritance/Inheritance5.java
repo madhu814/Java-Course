@@ -10,7 +10,7 @@ class Parent2
     int age=19;
 }
 
-class Child extends Parent1, Parent2 //This will give error, because multiple inheritance is not supported in java.
+class Child extends Parent1 //This will give error, because multiple inheritance is not supported in java.
 {
     void disp()
     {
@@ -21,5 +21,7 @@ class Child extends Parent1, Parent2 //This will give error, because multiple in
 //Multiple inheritance is not supported in java, but we can achieve multiple inheritance using interfaces. 
 public class Inheritance5 {
     public static void main(String[] args) {
-
+        Child c = new Child();
+        c.disp();
+    }
 }

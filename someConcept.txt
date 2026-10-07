@@ -1,0 +1,16 @@
+- When we create object using new keyword then it memory is alloacted at two place first is in the Heap and the second is in the SCP which is String 
+Constant Pool.
+
+- If we adding something to a string using concate keyword and is we have not given
+reference to that first then the pervious string we be printed only.
+
+ String - stored SCP
+ String Buffer - immutable(changes not reflected to the original object)
+ String Builder - mutable(changes are reflected to the original object)
+
+ SCP here in this there is no garbage collector(Object is destroyed when JVM gets shut down.)
+
+ is relationship: inheritance.
+ has relationship: dependency injection. -> aggregation( library and book class )
+
+ 

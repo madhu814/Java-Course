@@ -1,4 +1,4 @@
-package Constructor;
+package Constructors;
 
 class Student1
 {      //extends Object class
@@ -36,7 +36,6 @@ public class Launch {
             //by default contructor will be called when we create an object of the class, and it is non parameterized constructor.
         Student1 s2 = new Student1("Ravi");  //One parameter constructor
         s2.disp();
-
         //Constructor overloading is a technique in Java in which a class can have more than one constructor that differ in parameter list. It is similar to method overloading. The compiler differentiates these constructors by the number of parameters in the list and their types.+
     }
 }

@@ -1,0 +1,6 @@
+Overloading : Is compile time polymorphism.
+Overridding : Is Run-time polymorphism.
+
+Abstract class : may or may not have abstract method.
+Interview :  -- can we have no abtract method, yes it is possible...
+                But there is not use of such class.

@@ -6,13 +6,28 @@ class Animal
     {
         System.out.println("Animal is sleeping");
     }
+
+    public void eat()
+    {
+        System.out.println("Animal is eating");
+    }
+
+    public void age(int x)
+    {
+        System.out.println("Animal age is ");
+    }
 }
 
 class Tiger extends Animal
 {
-    void eat()
+    public void eat()
     {
         System.out.println("Tiger is eating");
+    }
+
+    public void age(int x)
+    {
+        System.out.println("Tiger age is 5");
     }
 }     //until here it is called single inheritance, because one class is inheriting from one class.
 
@@ -31,5 +46,6 @@ public class Inheritance3 {
         Tiger t = new Tiger();
         t.sleep(); // Inherited from Animal
         t.eat();   // Defined in Tiger
+        t.age(5);  // Defined in Tiger
     } 
 }
